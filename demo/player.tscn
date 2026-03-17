@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cviuuo0x7eye"]
+
+[ext_resource type="Script" uid="uid://d4fpql8mrsnbq" path="res://demo/player.gd" id="1_giqk6"]
+[ext_resource type="Texture2D" uid="uid://cpmsfnyn5fjm1" path="res://icon.svg" id="2_yji6d"]
+[ext_resource type="Script" uid="uid://d1kskekeri5mx" path="res://addons/ghost_trail/ghost_trail_recorder.gd" id="3_yji6d"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_giqk6"]
+radius = 16.0
+
+[node name="Player" type="CharacterBody2D" unique_id=446649996]
+script = ExtResource("1_giqk6")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1048003903]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_yji6d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1827483600]
+shape = SubResource("CircleShape2D_giqk6")
+
+[node name="GhostTrailRecorder" type="Node2D" parent="." unique_id=559588140]
+script = ExtResource("3_yji6d")
+metadata/_custom_type_script = "uid://d1kskekeri5mx"
