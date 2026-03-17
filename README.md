@@ -12,7 +12,7 @@ GhostTrail is a Godot 4 addon that enables you to record playthrough ghosts and 
 - [License](#license)
 
 ## Download
-Download the latest release [from GitHub](https://github.com/LauraWebdev/godot-ghosttrail/releases) or the [Godot Asset Store](https://store-beta.godotengine.org/asset/indiegesindel/ghosttrail/).
+Download the latest release [from GitHub](https://github.com/LauraWebdev/godot-ghosttrail/releases), the [Godot AssetLib](https://godotengine.org/asset-library/asset/21514) or the [Godot Asset Store](https://store-beta.godotengine.org/asset/indiegesindel/ghosttrail/).
 
 ## Usage
 Simply add the **GhostTrailRecorder** node as a child to your player node. If you have multiple player nodes (eg: one for your main character and one for your map scene), you can add the **GhostTrailRecorder** to both nodes. The addon will record the movement of all nodes and display them in the editor.
